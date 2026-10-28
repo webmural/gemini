@@ -1,42 +1,39 @@
+:any-link {
+  color: chartreuse;
+  outline-color: rebeccapurple;
+  background: darkviolet;
+}
+
 ::selection {
-  background: #d0b;
-  color: #101;
+  background: fuchsia;
+  color: purple;
 }
 
 html {
-  color: #d0b;
+  color: indigo;
+  background: silver;
+}
+
+.uno {
+  color: #eac;
   background-color: #1111;
   background-color: #111;
 }
 
-svg {
-  
-}
-
 .bae {
-  --ux: #bae;  
-  --p2p: #323;
+  color: #111;
+  background: #bae;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color: mediumorchid;
-    background: darkslategray;
+@media (prefers-contrast: less),
+  (prefers-color-scheme: dark) {
+  html {
+    color: plum;
+    background: purple;
   }
-}
-
-@media (prefers-contrast: less) {
-  :root {
-    color: #33113d;
-  }
-}
-
-:any-link {
-  color: #50a;
-  outline-color: #50a;
 }
 
 mark {
-  color: #11111d;
-  background: coral;
+  color: plum;
+  background: indigo;
 }
