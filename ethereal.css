@@ -1,16 +1,27 @@
 ::selection {
-  background: #200222;
-  color: coral;
+  background: #d0b;
+  color: #101;
 }
 
-:root {
-  color: #200222;
-  background: skyblue;
+html {
+  color: #d0b;
+  background-color: #1111;
+  background-color: #111;
+}
+
+svg {
+  
+}
+
+.bae {
+  --ux: #bae;  
+  --p2p: #323;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    background: deepskyblue;
+    color: mediumorchid;
+    background: darkslategray;
   }
 }
 
